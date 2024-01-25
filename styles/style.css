@@ -1,7 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+ /*
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
+ /*  
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-*{
-    margin: 0;
-    padding: 0;
-}
+ body {
+     display: flex;
+     justify-content: center;
+     margin-top: 20%;
+     color: white;
+ }
 
+ main {}
+
+ article {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 20rem;
+     height:25rem;
+ }
+
+ section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 2rem;
+     background-color: rgba(240, 248, 255, 0);
+     width: 15rem;
+ }
+
+ img {
+     width: 3rem;
+ }
+
+ h1 {
+     font-size: 1.7rem;
+     font-family: 'Big Shoulders Display', sans-serif;
+ }
+ p{
+    font-family: 'Lexend Deca', sans-serif; 
+ }
+
+ .artigo-1 {
+     background-color: #EEB77C;
+     border-radius: 1rem 1rem 0rem 0rem;
+ }
+
+ .artigo-2 {
+    background-color: #006970;
+ }
+
+ .artigo-3 {
+    background-color: #004241;
+     border-radius: 0rem 0rem 1rem 1rem;
+ }
+
+ .b {
+     width: 9rem;
+     height: 2.5rem;
+     border: none;
+     border-radius: 8rem;
+ }
+ .botao-1{
+    color: #EEB77C;
+ }
+ .botao-2{
+    color: #006970;
+ }
+ .botao-3{
+    color: #004241;
+ }
